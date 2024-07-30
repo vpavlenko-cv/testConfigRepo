@@ -1,0 +1,12 @@
+enrichment.type=ENRICHMENT_TYPE
+enrichment.config.file=generated/cyb-444/triage/enrichments-storage.json
+
+enrichment.source.skipfirstline=true
+enrichment.source.columns=column_1,column_2
+
+parallelism=1
+
+# uncomment for local enrichment
+# enrichment.topic.input=BRANCH.cyb-444.enrichments.input
+
+flink.job.name=BRANCH.cyb-444.load.ENRICHMENT_TYPE

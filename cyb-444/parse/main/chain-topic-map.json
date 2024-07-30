@@ -1,0 +1,14 @@
+{
+  "squid":{
+     "chainKey":"squid",
+     "source":"squid"
+  },
+  "domain_category":{
+     "chainKey":"domain_category",
+     "source":"domain_category"
+  },
+  "cyb110":{
+     "chainKey":"cyb110",
+     "source":"cyb110"
+  }
+}

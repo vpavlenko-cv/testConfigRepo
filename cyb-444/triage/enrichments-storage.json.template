@@ -1,0 +1,63 @@
+{
+  "storageConfigs": {
+    "default": {
+      "format": "HBASE_SIMPLE",
+      "hbaseTableName": "enrichments"
+    },
+    "metron": {
+      "format": "HBASE_METRON",
+      "hbaseTableName": "cyb_105_metron",
+      "columnFamily":"cf"
+    }
+  },
+  "enrichmentConfigs": {
+    "malicious_domain": {
+      "storage": "default",
+      "fieldMapping": {
+        "keyFields": [
+          "domain"
+        ],
+        "valueFields": [
+          "source"
+        ]
+      }
+    },
+    "cyb-105": {
+      "storage": "default",
+      "fieldMapping": {
+        "keyFields": [
+          "domain"
+        ],
+        "valueFields": [
+          "category"
+        ],
+        "streamingSources": [
+          "domain_category"
+        ]
+      }
+    },
+    "majestic_million": {
+      "storage": "default",
+      "fieldMapping": {
+        "keyFields": [
+          "domain"
+        ],
+        "valueFields": [
+          "rank"
+        ]
+      }
+    },
+    "metron_majestic_million": {
+      "storage": "metron",
+      "fieldMapping": {
+        "keyFields": [
+          "domain"
+        ],
+        "valueFields": [
+          "rank"
+        ]
+      }
+    }
+  }
+}
+~            
