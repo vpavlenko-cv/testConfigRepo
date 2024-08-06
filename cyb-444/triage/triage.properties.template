@@ -41,5 +41,5 @@ threatq.topic.input=BRANCH.cyb-444.threatq.input
 parallelism=1
 flink.job.name=BRANCH.cyb-444.triage
 
-geo.database_path=hdfs:/user/cyberse/cyb-105/GeoLite2-City.mmdb
-asn.database_path=hdfs:/user/cyberse/cyb-105/GeoLite2-ASN.mmdb
+geo.database_path=hdfs:/user/cybersec/cyb-444/GeoLite2-City.mmdb
+asn.database_path=hdfs:/user/cybersec/cyb-444/GeoLite2-ASN.mmdb
