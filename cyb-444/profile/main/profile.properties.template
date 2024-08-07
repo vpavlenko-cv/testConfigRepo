@@ -3,8 +3,13 @@ profile.config.file=cyb-444/profile/main/profile.json
 profile.first.seen.table=enrichments
 profile.first.seen.column.family=first_seen
 
-phoenix.db.init=false
+phoenix.db.init=true
 phoenix.db.batchSize=40
+phoenix.db.thin.url=http://ccycloud-1.vpavlenko.root.comops.site:8765
+
+phoenix.db.thin.authentication=BASIC
+phoenix.db.thin.avatica_user=admin
+phoenix.db.thin.avatica_password=admin
 
 phoenix.db.query.param.measurement_data_table_name=prf_measure
 phoenix.db.query.param.measurement_metadata_table_name=prf_measure_meta
