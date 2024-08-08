@@ -8,11 +8,20 @@
     "config" : {
       "outputField" : [ {
         "fieldIndex" : "0",
-        "fieldName" : "domain"
+        "fieldName" : "domainName"
       }, {
         "fieldIndex" : "1",
-        "fieldName" : "category"
-      } ]
+        "fieldName" : "macAddress"
+      },
+      {
+        "fieldIndex" : "2",
+        "fieldName" : "email"
+      },
+      {
+        "fieldIndex" : "3",
+        "fieldName" : "user"
+      }
+      ]
     }
   }, {
     "id" : "32326c90-5929-11ed-b623-a74de6a703e8",
