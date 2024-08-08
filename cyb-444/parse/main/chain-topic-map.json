@@ -10,5 +10,9 @@
   "cyb110":{
      "chainKey":"cyb110",
      "source":"cyb110"
+  },
+  "malicious_domain":{
+     "chainKey":"malicious_domain",
+     "source":"malicious_domain"
   }
 }
