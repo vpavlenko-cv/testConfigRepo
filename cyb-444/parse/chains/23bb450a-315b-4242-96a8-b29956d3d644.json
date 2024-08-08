@@ -14,15 +14,13 @@
       "inputField" : [ {
         "inputField" : "remaining"
       } ],
-      "outputField" : [ {
-        "fieldIndex" : "",
-        "fieldName" : ""
+      "outputField" : [ 
+      {
+        "fieldIndex" : "0",
+        "fieldName" : "bookTitle"
       }, {
-        "fieldIndex" : "31",
-        "fieldName" : "application"
-      }, {
-        "fieldIndex" : "75",
-        "fieldName" : "categorization"
+        "fieldIndex" : "1",
+        "fieldName" : "bookGenre"
       } ],
       "delimiter" : [ {
         "delimiter" : ","
