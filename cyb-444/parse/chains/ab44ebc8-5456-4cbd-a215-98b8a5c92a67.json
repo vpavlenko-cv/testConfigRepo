@@ -1,0 +1,24 @@
+{
+  "id" : "ab454ebc8-5456-4cbd-a215-98b8a5c92a67",
+  "name" : "metron_majestic_million",
+  "parsers" : [ {
+    "id" : "aa794970-57a3-11ed-b623-a74de6a703e8",
+    "name" : "csv",
+    "type" : "com.cloudera.parserchains.parsers.CsvTextParser",
+    "config" : {
+      "outputField" : [ {
+        "fieldIndex" : "0",
+        "fieldName" : "domain"
+      }, {
+        "fieldIndex" : "1",
+        "fieldName" : "rank"
+      } ]
+    }
+  },
+{
+    "id" : "95a69bc0-5640-11ef-afbb-b51284593020",
+    "name" : "timestamp",
+    "type" : "com.cloudera.parserchains.parsers.TimestampParser",
+    "config" : { }
+  } ]
+}
