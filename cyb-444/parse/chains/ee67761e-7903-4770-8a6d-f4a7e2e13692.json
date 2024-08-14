@@ -11,7 +11,7 @@
         "fieldName" : "domainName"
       }, {
         "fieldIndex" : "1",
-        "fieldName" : "macAddress"
+        "fieldName" : "category"
       },
       {
         "fieldIndex" : "2",
