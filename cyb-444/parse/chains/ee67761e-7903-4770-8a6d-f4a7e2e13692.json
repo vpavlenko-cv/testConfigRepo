@@ -20,10 +20,6 @@
       {
         "fieldIndex" : "3",
         "fieldName" : "user"
-      }, 
-      {
-        "fieldIndex" : "4",
-        "fieldName" : "category"
       }
       ]
     }
