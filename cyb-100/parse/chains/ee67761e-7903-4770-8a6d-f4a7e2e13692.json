@@ -8,7 +8,7 @@
     "config" : {
       "outputField" : [ {
         "fieldIndex" : "0",
-        "fieldName" : "domainName"
+        "fieldName" : "domain"
       }, {
         "fieldIndex" : "1",
         "fieldName" : "category"
