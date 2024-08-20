@@ -34,9 +34,9 @@ topic.input=BRANCH.cyb-100.triage.input
 topic.output=BRANCH.cyb-100.triage.output
 enrichment.topic.input=main.cyb-444.enrichments.input
 enrichment.topic.query.output=BRANCH.cyb-100.enrichments.output
-query.input.topic=BRANCH.cyb-444.scoring.input
+query.input.topic=main.cyb-444.scoring.input
 query.output.topic=BRANCH.cyb-100.scoring.output
-threatq.topic.input=BRANCH.cyb-444.threatq.input
+threatq.topic.input=main.cyb-444.threatq.input
 
 parallelism=1
 flink.job.name=BRANCH.cyb-100.triage
