@@ -14,5 +14,9 @@
   "malicious_domain":{
      "chainKey":"malicious_domain",
      "source":"malicious_domain"
+  },
+  "metron_majestic_million":{
+    "chainKey":"metron_majestic_million",
+    "source":"metron_majestic_million"
   }
 }

@@ -20,6 +20,10 @@
       {
         "name": "full_hostname",
         "enrichmentType": "cyb-105"
+      },
+      {
+        "name": "full_hostname",
+        "enrichmentType": "metron_majestic_million"
       }
     ]
   }

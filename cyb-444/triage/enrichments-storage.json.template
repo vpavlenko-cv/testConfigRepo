@@ -19,6 +19,9 @@
         ],
         "valueFields": [
           "source"
+        ],
+	"streamingSources": [
+          "malicious_domain"
         ]
       }
     },
@@ -44,6 +47,9 @@
         ],
         "valueFields": [
           "rank"
+        ],
+	"streamingSources": [
+          "majestic_million"
         ]
       }
     },
@@ -55,9 +61,12 @@
         ],
         "valueFields": [
           "rank"
+        ],
+	"streamingSources": [
+          "metron_majestic_million"
         ]
+
       }
     }
   }
 }
-~            
