@@ -31,7 +31,7 @@ kafka.group.id=BRANCH.cyb-100.profile.main
 
 topic.output=BRANCH.cyb-100.profile.main.output
 topic.input=BRANCH.cyb-100.triage.output
-query.input.topic=BRANCH.cyb-444.profile.main.scoring.input
+query.input.topic=main.cyb-444.profile.main.scoring.input
 query.output.topic=BRANCH.cyb-100.profile.main.scoring.output
 
 flink.job.name=BRANCH.cyb-100.profile.main
