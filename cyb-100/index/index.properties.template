@@ -9,17 +9,17 @@ hive.table=events
 #flink.output-connector=kafka
 
 #Uncomment following two lines in case flink.writer=tableapi is specified
-#flink.tables-init-file=cyb-444/index/table-config.json
-#flink.mapping-file=cyb-444/index/mapping-config.json
+#flink.tables-init-file=cyb-100/index/table-config.json
+#flink.mapping-file=cyb-100/index/mapping-config.json
 
 #hive.confdir=/etc/hive/conf/
 
 #hive.transaction.messages=500
 
-kafka.group.id=BRANCH.cyb-444.index
+kafka.group.id=BRANCH.cyb-100.index
 
-topic.input=BRANCH.cyb-444.triage.output
+topic.input=BRANCH.cyb-100.triage.output
 
 parallelism=1
 checkpoint.interval.ms=60000
-flink.job.name=BRANCH.cyb-444.index
+flink.job.name=BRANCH.cyb-100.index

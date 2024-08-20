@@ -1,4 +1,4 @@
-profile.config.file=cyb-444/profile/main/profile.json
+profile.config.file=cyb-100/profile/main/profile.json
 
 profile.first.seen.table=enrichments
 profile.first.seen.column.family=first_seen
@@ -27,11 +27,11 @@ phoenix.db.max_retries_times=3
 parallelism=1
 checkpoint.interval.ms=60000
 
-kafka.group.id=BRANCH.cyb-444.profile.main
+kafka.group.id=BRANCH.cyb-100.profile.main
 
-topic.output=BRANCH.cyb-444.profile.main.output
-topic.input=BRANCH.cyb-444.triage.output
+topic.output=BRANCH.cyb-100.profile.main.output
+topic.input=BRANCH.cyb-100.triage.output
 query.input.topic=BRANCH.cyb-444.profile.main.scoring.input
-query.output.topic=BRANCH.cyb-444.profile.main.scoring.output
+query.output.topic=BRANCH.cyb-100.profile.main.scoring.output
 
-flink.job.name=BRANCH.cyb-444.profile.main
+flink.job.name=BRANCH.cyb-100.profile.main

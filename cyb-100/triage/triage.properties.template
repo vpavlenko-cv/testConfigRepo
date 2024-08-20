@@ -10,36 +10,36 @@ asn.ip_fields=ip_src_addr,ip_dst_addr
 
 cidr.enabled=false
 cidr.ip_fields=ip_src_addr,ip_dst_addr
-cidr.config_file_path=cyb-444/triage/enrichments-cidr.json
+cidr.config_file_path=cyb-100/triage/enrichments-cidr.json
 
-lookups.config.file=cyb-444/triage/enrichments-lookups.json
+lookups.config.file=cyb-100/triage/enrichments-lookups.json
 
 hbase.enabled=true
-enrichments.config=generated/cyb-444/triage/enrichments-storage.json
+enrichments.config=generated/cyb-100/triage/enrichments-storage.json
 
 rest.enabled=true
-rest.config.file=generated/cyb-444/triage/enrichments-rest.json
+rest.config.file=generated/cyb-100/triage/enrichments-rest.json
 
 threatq.enabled=true
-threatq.config.file=cyb-444/triage/enrichments-threatq.json
+threatq.config.file=cyb-100/triage/enrichments-threatq.json
 
 stellar.enabled=true
-stellar.config.dir=cyb-444/triage/stellar
+stellar.config.dir=cyb-100/triage/stellar
 
 rules.enabled=false
 
-kafka.group.id=BRANCH.cyb-444.triage
+kafka.group.id=BRANCH.cyb-100.triage
 
-topic.input=BRANCH.cyb-444.triage.input
-topic.output=BRANCH.cyb-444.triage.output
+topic.input=BRANCH.cyb-100.triage.input
+topic.output=BRANCH.cyb-100.triage.output
 enrichment.topic.input=BRANCH.cyb-444.enrichments.input
-enrichment.topic.query.output=BRANCH.cyb-444.enrichments.output
+enrichment.topic.query.output=BRANCH.cyb-100.enrichments.output
 query.input.topic=BRANCH.cyb-444.scoring.input
-query.output.topic=BRANCH.cyb-444.scoring.output
+query.output.topic=BRANCH.cyb-100.scoring.output
 threatq.topic.input=BRANCH.cyb-444.threatq.input
 
 parallelism=1
-flink.job.name=BRANCH.cyb-444.triage
+flink.job.name=BRANCH.cyb-100.triage
 
 geo.database_path=hdfs:/user/cybersec/cyb-444/GeoLite2-City.mmdb
 asn.database_path=hdfs:/user/cybersec/cyb-444/GeoLite2-ASN.mmdb
