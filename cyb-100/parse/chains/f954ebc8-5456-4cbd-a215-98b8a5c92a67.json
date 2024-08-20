@@ -6,9 +6,6 @@
     "name" : "csv",
     "type" : "com.cloudera.parserchains.parsers.CsvTextParser",
     "config" : {
-      "inputField" : [ {
-        "inputField" : "remaining"
-      } ],
       "outputField" : [ {
         "fieldIndex" : "0",
         "fieldName" : "domain"
