@@ -1,0 +1,15 @@
+chain.dir=cyb-160/parse/chains
+chain.topic.map.file=cyb-160/parse/main/chain-topic-map.json
+chain.enrichments.file=generated/cyb-160/parse/main/enrichments-storage.json
+
+kafka.group.id=BRANCH.cyb-160.parse.main
+
+topic.output=BRANCH.cyb-160.triage.input
+topic.error=BRANCH.cyb-160.parser.error
+
+parallelism=1
+flink.job.name=BRANCH.cyb-160.parse.main
+
+signature.enabled=false
+original.enabled=false
+

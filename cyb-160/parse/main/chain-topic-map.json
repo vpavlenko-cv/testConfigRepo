@@ -1,0 +1,22 @@
+{
+  "squid":{
+     "chainKey":"squid",
+     "source":"squid"
+  },
+  "domain_category":{
+     "chainKey":"domain_category",
+     "source":"domain_category"
+  },
+  "cyb110":{
+     "chainKey":"cyb110",
+     "source":"cyb110"
+  },
+  "malicious_domain":{
+     "chainKey":"malicious_domain",
+     "source":"malicious_domain"
+  },
+  "metron_majestic_million":{
+    "chainKey":"metron_majestic_million",
+    "source":"metron_majestic_million"
+  }
+}

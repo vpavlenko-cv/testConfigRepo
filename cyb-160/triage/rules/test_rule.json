@@ -1,0 +1,10 @@
+{
+  "name": "Test rule",
+  "id" : "505a534f-0b33-4053-a67b-d62341d93a941",
+  "order" : "1",
+  "tsStart" : "2020-01-01T00:00:00.00Z",
+  "tsEnd" : "2025-01-01T00:00:00.00Z",
+  "type" : "JS",
+  "ruleScript" : "return {score: 50.0, reason: 'Test'};",
+  "enabled" : true
+}

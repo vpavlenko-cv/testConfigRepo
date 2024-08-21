@@ -1,0 +1,60 @@
+[
+  {
+    "profileGroupName": "cyb_105_ip_out",
+    "sources": [
+      "netflow",
+      "squid"
+    ],
+    "keyFieldNames": [
+      "ip_src_addr"
+    ],
+    "periodDuration": 1,
+    "periodDurationUnit": "MINUTES",
+    "measurements": [
+      {
+        "fieldName": "dst_bytes",
+        "resultExtensionName": "total_bytes_out",
+        "aggregationMethod": "SUM"
+      },
+      {
+        "fieldName": "ip_dst_addr",
+        "resultExtensionName": "distinct_dest",
+        "aggregationMethod": "COUNT_DISTINCT"
+      },
+      {
+        "fieldName": "total_transfer_bytes",
+        "resultExtensionName": "transfer_size",
+        "aggregationMethod": "SUM"
+      },
+      {
+        "fieldName": "full_hostname",
+        "resultExtensionName": "distict_domains",
+        "aggregationMethod": "COUNT_DISTINCT"
+      }
+    ]
+  },
+  {
+    "profileGroupName": "cyb_105_domain_act",
+    "sources": [
+      "squid"
+    ],
+    "keyFieldNames": [
+      "full_hostname"
+    ],
+    "periodDuration": 1,
+    "periodDurationUnit": "MINUTES",
+    "measurements": [
+      {
+        "resultExtensionName": "domain_first_seen",
+        "aggregationMethod": "FIRST_SEEN",
+        "firstSeenExpirationDuration": 60,
+        "firstSeenExpirationDurationUnit": "DAYS"
+      },
+      {
+        "fieldName": "transfer_size",
+        "resultExtensionName": "total_transfer_size",
+        "aggregationMethod": "SUM"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id" : "23bb450a-315b-4242-96a8-b29956d3d644",
+  "name" : "cyb110",
+  "parsers" : [ {
+    "id" : "fdf4e830-645f-11ed-bb0a-d1c6550076fb",
+    "name" : "json",
+    "type" : "com.cloudera.parserchains.parsers.JSONParser",
+    "config" : { }
+  }, {
+    "id" : "408f6210-6460-11ed-bb0a-d1c6550076fb",
+    "name" : "remaining_tsv",
+    "type" : "com.cloudera.parserchains.parsers.CsvTextParser",
+    "config" : {
+      "inputField" : [ {
+        "inputField" : "remaining"
+      } ],
+      "outputField" : [ 
+      {
+        "fieldIndex" : "0",
+        "fieldName" : "bookTitle"
+      }, {
+        "fieldIndex" : "1",
+        "fieldName" : "bookGenre"
+      } ],
+      "delimiter" : [ {
+        "delimiter" : ","
+      } ]
+    }
+  }, {
+    "id" : "76966840-6460-11ed-bb0a-d1c6550076fb",
+    "name" : "timestamp",
+    "type" : "com.cloudera.parserchains.parsers.TimestampFormatParser",
+    "config" : {
+      "fields" : [ {
+        "field" : "timestamp",
+        "tz" : "UTC",
+        "format" : "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+      } ]
+    }
+  } ]
+}
